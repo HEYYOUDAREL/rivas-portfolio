@@ -1,0 +1,234 @@
+<<<<<<< HEAD
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.navbar, .page-footer {
+	background-color: #212020;
+}
+
+#navbarfont #navbarNav {
+	font-size: calc(0.5rem + 1vw);
+	line-height: calc(0.5rem + 1vw);
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+}
+
+#h1-fluid {
+	font-size: calc(2rem + 5vw);
+	line-height: calc(2rem + 5vw);
+}
+
+#h3-fluid {
+	font-size: calc(0.8rem + 1.5vw);
+	line-height: calc(0.8rem + 1.5vw);
+}
+
+#p-fluid {
+	font-size: calc(0.5rem + 1vw);
+	line-height: calc(0.5rem + 1vw);
+}
+
+#p2-fluid {
+	font-size: calc(0.4rem + 0.8vw);
+	line-height: calc(0.4rem + 0.8vw);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+	background: none;
+	border: none;
+}
+
+h5 {
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	color: #212021;
+	font-size: calc(1rem + 2vw);
+	line-height: calc(1rem + 2vw);
+}
+
+/*@media only screen and (max-width: 768px) {
+  #freecodecamp {
+    font-size: calc(1rem + 2vw);
+  }
+}*/
+
+#secondsection {
+	background-color: #908C94;
+}
+
+#card1 {
+	background-color: #949494;
+}
+
+.card-text {
+	font-size: calc(0.3rem + 0.6vw);
+	line-height: calc(0.3rem + 0.6vw);
+}
+
+a.button1 {
+	display:inline-flex;
+	padding:0.35em 1.2em;
+	border:0.1em solid #FFFFFF;
+	margin:0 0.3em 0.3em 0;
+	border-radius:0.12em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-weight:300;
+	color:#FFFFFF;
+	text-align:center;
+	transition: all 0.2s;
+	font-size: calc(0.3rem + 0.8vw);
+	line-height: calc(0.3rem + 0.8vw);
+}
+
+a.button1:hover {
+	color:#000000;
+	background-color:#FFFFFF;
+}
+
+@media all and (max-width:30em) {
+	a.button1 {
+		display:inline-flex;
+		margin:0.4em auto;
+	}
+}
+
+#form {
+	background-color: #212021;
+}
+
+h6 {
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	color: #212021;
+	font-size: calc(0.8rem + 1.5vw);
+	line-height: calc(0.8rem + 1.5vw);
+=======
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.navbar, .page-footer {
+	background-color: #212020;
+}
+
+#navbarfont #navbarNav {
+	font-size: calc(0.5rem + 1vw);
+	line-height: calc(0.5rem + 1vw);
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+}
+
+#h1-fluid {
+	font-size: calc(2rem + 5vw);
+	line-height: calc(2rem + 5vw);
+}
+
+#h3-fluid {
+	font-size: calc(0.8rem + 1.5vw);
+	line-height: calc(0.8rem + 1.5vw);
+}
+
+#p-fluid {
+	font-size: calc(0.5rem + 1vw);
+	line-height: calc(0.5rem + 1vw);
+}
+
+#p2-fluid {
+	font-size: calc(0.4rem + 0.8vw);
+	line-height: calc(0.4rem + 0.8vw);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+	background: none;
+	border: none;
+}
+
+h5 {
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	color: #212021;
+	font-size: calc(1rem + 2vw);
+	line-height: calc(1rem + 2vw);
+}
+
+/*@media only screen and (max-width: 768px) {
+  #freecodecamp {
+    font-size: calc(1rem + 2vw);
+  }
+}*/
+
+#secondsection {
+	background-color: #908C94;
+}
+
+#card1 {
+	background-color: #949494;
+}
+
+.card-text {
+	font-size: calc(0.3rem + 0.6vw);
+	line-height: calc(0.3rem + 0.6vw);
+}
+
+a.button1 {
+	display:inline-flex;
+	padding:0.35em 1.2em;
+	border:0.1em solid #FFFFFF;
+	margin:0 0.3em 0.3em 0;
+	border-radius:0.12em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-weight:300;
+	color:#FFFFFF;
+	text-align:center;
+	transition: all 0.2s;
+	font-size: calc(0.3rem + 0.8vw);
+	line-height: calc(0.3rem + 0.8vw);
+}
+
+a.button1:hover {
+	color:#000000;
+	background-color:#FFFFFF;
+}
+
+@media all and (max-width:30em) {
+	a.button1 {
+		display:inline-flex;
+		margin:0.4em auto;
+	}
+}
+
+#form {
+	background-color: #212021;
+}
+
+h6 {
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	color: #212021;
+	font-size: calc(0.8rem + 1.5vw);
+	line-height: calc(0.8rem + 1.5vw);
+>>>>>>> 09c0a2fa27e18402757b27b6e4ce61d44680c5ea
+}
